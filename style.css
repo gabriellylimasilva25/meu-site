@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0f172a;
+    color: white;
+}
+
+/* MENU */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background-color: #1e293b;
+    position: sticky;
+    top: 0;
+}
+
+.logo span {
+    color: #38bdf8;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+/* INÍCIO */
+.inicio {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.foto {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 4px solid #38bdf8;
+    object-fit: cover;
+}
+
+.inicio h1 {
+    font-size: 38px;
+    margin: 20px 0 10px;
+}
+
+.inicio h1 span {
+    color: #38bdf8;
+}
+
+.inicio p {
+    color: #cbd5e1;
+    margin-bottom: 25px;
+}
+
+/* BOTÕES */
+.botao {
+    display: inline-block;
+    background-color: #38bdf8;
+    color: #0f172a;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.botao2 {
+    background-color: transparent;
+    color: white;
+    border: 2px solid #38bdf8;
+}
+
+/* SEÇÕES */
+.secao {
+    padding: 60px 8%;
+    text-align: center;
+}
+
+.secao h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #38bdf8;
+}
+
+.secao p {
+    color: #cbd5e1;
+    max-width: 600px;
+    margin: 0 auto 15px;
+    line-height: 1.6;
+}
+
+/* HABILIDADES */
+.habilidades {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.habilidades span {
+    background-color: #1e293b;
+    padding: 8px 18px;
+    border-radius: 20px;
+    border: 1px solid #38bdf8;
+}
+
+/* PROJETOS */
+.projetos {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.card {
+    background-color: #1e293b;
+    width: 300px;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: left;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #38bdf8;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e293b;
+    color: #94a3b8;
+}
